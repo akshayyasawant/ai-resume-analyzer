@@ -37,6 +37,7 @@ Your web browser will automatically open a new tab with the application running.
 
 📊 Sample Output
 After uploading resumes and a job description, the application generates a detailed report and a visual ranking of candidates.
+<img width="1903" height="786" alt="Screenshot 2025-09-04 061108" src="https://github.com/user-attachments/assets/8595fea6-2756-46f5-82d9-64fcf08024ed" />
 
 🛠️ Tech Stack
 Python 3.9+
