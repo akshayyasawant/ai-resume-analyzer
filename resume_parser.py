@@ -20,6 +20,7 @@ from rake_nltk import Rake
 import PyPDF2
 import re
 from typing import List, Dict
+import io
 
 class ResumeParser:
     def __init__(self):
