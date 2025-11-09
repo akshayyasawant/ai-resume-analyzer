@@ -1,30 +1,29 @@
 # --- Core App Framework ---
-streamlit==1.36.0
-pandas==2.2.2
-numpy==1.26.4
-matplotlib==3.8.4
-plotly==5.22.0
+streamlit
+pandas
+numpy
+matplotlib
+plotly
 
 # --- NLP & AI Models ---
-sentence-transformers==2.2.2
-transformers==4.30.2
-scikit-learn==1.4.2
-huggingface-hub==0.14.1
+sentence-transformers
+transformers
+scikit-learn
 torch
 
 # --- Text Processing & Extraction ---
-nltk==3.8.1
-PyMuPDF==1.24.9
-python-docx==0.8.11
-rake-nltk==1.0.6
+nltk
+PyMuPDF
+python-docx
+rake-nltk
 
 # --- Utility Libraries ---
-fpdf==1.7.2
-tqdm==4.67.1
-requests==2.32.3
-typing-extensions==4.12.2
-packaging==24.2
+fpdf
+tqdm
+requests
+typing-extensions
+packaging
 
-# --- Optional (for smoother Windows builds) ---
-colorama==0.4.6
-filelock==3.16.1
+# --- Optional (for smoother Windows/Streamlit builds) ---
+colorama
+filelock
