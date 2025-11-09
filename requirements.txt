@@ -4,6 +4,8 @@ pandas
 numpy
 matplotlib
 plotly
+openpyxl
+
 
 # --- NLP & AI Models ---
 sentence-transformers
