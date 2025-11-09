@@ -1,10 +1,20 @@
 import nltk
 
-# Ensure stopwords are available for RAKE
+# Ensure required NLTK data is available
 try:
     nltk.data.find("corpora/stopwords")
 except LookupError:
     nltk.download("stopwords")
+
+try:
+    nltk.data.find("tokenizers/punkt")
+except LookupError:
+    nltk.download("punkt")
+
+try:
+    nltk.data.find("tokenizers/punkt_tab")
+except LookupError:
+    nltk.download("punkt_tab")
 
 from rake_nltk import Rake
 import PyPDF2
