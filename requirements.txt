@@ -4,7 +4,7 @@ pandas
 numpy
 matplotlib
 plotly
-openpyxl
+
 
 
 # --- NLP & AI Models ---
@@ -25,7 +25,7 @@ tqdm
 requests
 typing-extensions
 packaging
-
+openpyxl
 # --- Optional (for smoother Windows/Streamlit builds) ---
 colorama
 filelock
