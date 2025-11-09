@@ -1,13 +1,16 @@
+import nltk
+
+# Ensure stopwords are available for RAKE
+try:
+    nltk.data.find("corpora/stopwords")
+except LookupError:
+    nltk.download("stopwords")
+
+from rake_nltk import Rake
 import PyPDF2
 import re
 from typing import List, Dict
-from rake_nltk import Rake
 
-import nltk
-try:
-    nltk.data.find('corpora/stopwords')
-except LookupError:
-    nltk.download('stopwords')
 class ResumeParser:
     def __init__(self):
         """Generic Resume Parser using RAKE (keyword extraction)"""
