@@ -5,3 +5,4 @@ pandas
 PyPDF2
 openpyxl
 plotly
+rake-nltk==1.0.6
