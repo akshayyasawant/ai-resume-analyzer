@@ -54,5 +54,3 @@ plotly: For creating interactive data visualizations.
 
 openpyxl: A dependency for exporting data to Excel files.
 
-📜 License
-This project is licensed under the MIT License.
