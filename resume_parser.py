@@ -3,6 +3,11 @@ import re
 from typing import List, Dict
 from rake_nltk import Rake
 
+import nltk
+try:
+    nltk.data.find('corpora/stopwords')
+except LookupError:
+    nltk.download('stopwords')
 class ResumeParser:
     def __init__(self):
         """Generic Resume Parser using RAKE (keyword extraction)"""
