@@ -6,6 +6,7 @@ from matcher import ResumeJobMatcher
 from export_utils import ExportUtils
 import plotly.graph_objects as go
 import plotly.express as px
+import setup_nltk
 
 # Configure Streamlit page
 st.set_page_config(
