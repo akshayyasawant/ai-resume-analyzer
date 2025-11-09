@@ -450,8 +450,8 @@ def display_enhanced_results(results, job_description):
                     st.metric("🔍 Similarity", f"{result['similarity_score']:.3f}")
                 with score_col3:
                     st.metric("🎪 Keywords", f"{result['keyword_score']:.3f}")
-                with score_col4:
-                    st.metric("⚡ Framework", f"{result.get('framework_score', 0):.3f}")
+                # with score_col4:
+                #     st.metric("⚡ Framework", f"{result.get('framework_score', 0):.3f}")
                 
                 # Skills and keywords with better formatting
                 if result['matching_keywords']:
